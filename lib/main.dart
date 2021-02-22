@@ -84,7 +84,7 @@ class _MyAppState extends State<MapScreen> {
         PointLatLng(_originLatitude, _originLongitude),
         PointLatLng(_destLatitude, _destLongitude),
         travelMode: TravelMode.driving,
-        wayPoints: [PolylineWayPoint(location: "Sabo, Yaba Lagos Nigeria")]
+        wayPoints: [PolylineWayPoint(location: "Test")]
     );
 
     //if (result.points.isNotEmpty) {
